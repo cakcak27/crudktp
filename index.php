@@ -138,7 +138,7 @@ function hapusfile($id){
 
 		$statement->execute(array(':id' => $id));
 
-		header('Location: http://localhost/backtobasic/dinamis/crudver1/index.php');
+		header('Location: http://localhost/crudktp/index.php');
 
 	} catch ( PDOException $e){
 		pesan_error($e);
@@ -184,7 +184,7 @@ function hapusfile($id){
 				break;
 
 			default:
-				header('Location: http://localhost/backtobasic/dinamis/crudver1/index.php');
+				header('Location: http://localhost/crudktp/index.php');
 				break;
 		}
 		
