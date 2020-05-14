@@ -123,7 +123,7 @@ function inputfile($nik, $nama, $lahir, $alamat, $agama, $status, $kerja)
 		));
 
 		$html_ktp = new KTP();
-		header('Location: http://localhost/backtobasic/dinamis/crudver1/index.php');
+		header('Location: http://localhost/crudktp/index.php');
 	} catch (PDOException $e){
 		pesan_error($e);
 	}
